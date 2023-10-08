@@ -30,7 +30,7 @@ switch (jawab) {
     kotakyangdidapat = "mengerjakan tugas desain";
     break;
   case "hitam":
-    rezekiyangdidapat = "mengerjakan tugas teknikal";
+    kotakyangdidapat = "mengerjakan tugas teknikal";
     break;
   case "biru":
     kotakyangdidapat = "mengerjakan tugas profesional";
