@@ -22,33 +22,33 @@ if (ikutprogramstudyindependengak === "iya") {
 
 // contoh program javascript menggunakan switch case
 var jawab = prompt(
-  "Selamat anda mendapatkan rezeki hari ini! Silahkan pilih rezeki yang anda dapatkan dengan memasukan salah satu huruf A sampai E"
+  "Selamat anda mendapatkan kotak misteri hari ini! Silahkan pilih kotak yang mana anda inginkan dengan menulis warna yang anda sukai"
 );
-var rezekiyangdidapat = "";
+var kotakyangdidapat = "";
 switch (jawab) {
-  case "A":
-    rezekiyangdidapat = "membuat tugas desain";
+  case "merah":
+    kotakyangdidapat = "mengerjakan tugas desain";
     break;
-  case "B":
-    rezekiyangdidapat = "membuat tugas teknikal";
+  case "hitam":
+    rezekiyangdidapat = "mengerjakan tugas teknikal";
     break;
-  case "C":
-    rezekiyangdidapat = "membuat tugas profesional";
+  case "biru":
+    kotakyangdidapat = "mengerjakan tugas profesional";
     break;
-  case "D":
-    rezekiyangdidapat = "libur";
+  case "hijau":
+    kotakyangdidapat = "libur";
     break;
-  case "E":
-    rezekiyangdidapat = "memperbaiki tugas sesi macro";
+  case "putih":
+    kotakyangdidapat = "memperbaiki tugas sesi macro";
     break;
   default:
-    document.write("<p>Maaf! Pilihan anda salah</p>");
+    document.write("<p>Maaf! Warna yang anda sukai tidak ada</p>");
 }
-if (rezekiyangdidapat === "") {
-  document.write("<p>anda gagal mendapat rezeki hari ini</p>");
+if (kotakyangdidapat === "") {
+  document.write("<p>anda gagal mendapat kotak misteri hari ini</p>");
 } else {
   document.write(
-    "<h2>Selamat anda mendapatkan rezeki berupa " + rezekiyangdidapat + "</h2>"
+    "<h2>Selamat anda mendapatkan kotak misteri berupa " + kotakyangdidapat + "</h2>"
   );
 }
 // contoh program javascript menggunakan for statement
@@ -76,6 +76,4 @@ do {
   ulangi = confirm("saya akan mencoba ulang");
 } while (ulangi);
 
-document.write("Perulangan sudah dilakuakn sebanyak " + counter + " kali");
-
-// contoh program javascript menggunakan function
+document.write("Perulangan sudah dilakukan sebanyak " + counter + " kali");
