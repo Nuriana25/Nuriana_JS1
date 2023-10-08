@@ -78,4 +78,4 @@ do {
 
 document.write("Perulangan sudah dilakuakn sebanyak " + counter + " kali");
 
-// contoh program javascript menggunakan while dan do while
+// contoh program javascript menggunakan function
